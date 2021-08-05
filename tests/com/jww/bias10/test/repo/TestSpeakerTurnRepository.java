@@ -99,7 +99,6 @@ public class TestSpeakerTurnRepository extends BaseRepositoryTest
 	{
 		Interview iv = new Interview();
 		iv.setId(99);
-		PreparedStatement ps;
 		
 		//Test that retrieving a ST with bad PK yields no result
 		assertNull(repo.get(99));

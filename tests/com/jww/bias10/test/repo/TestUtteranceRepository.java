@@ -93,11 +93,8 @@ public class TestUtteranceRepository extends BaseRepositoryTest
 	@Test
 	public void testGet() throws SQLException
 	{
-		PreparedStatement ps;
-		ResultSet r;
-		
+
 		//Test that retrieval of utterance by ID works
-		Integer utt_id;
 		Utterance u = new Utterance();
 		Utterance u2;
 		
